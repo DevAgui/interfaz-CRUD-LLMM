@@ -1,0 +1,22 @@
+@font-face {
+    font-family: Texto;
+    src: url("../fonts/Montserrat.ttf");
+}
+
+/*Imagen de fondo el cuál se comparte en todas las páginas. Quería que se viera el personaje siempre incluso cuando se achique la pantalla.*/
+body{
+    font-family: Texto!important;
+    background-image: url("../images/login-background.jpg");
+    background-position: 0%;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+/* Eventos para mejorar la legibilidad del CRUD. */
+.opacidad:hover{
+    opacity: 1!important;
+    background-color: #F3F8FE;
+}
+.contraste:hover{
+    font-weight: 900;
+}
